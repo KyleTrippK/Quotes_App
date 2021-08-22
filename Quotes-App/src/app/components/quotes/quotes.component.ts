@@ -21,9 +21,9 @@ export class QuotesComponent implements OnInit {
   ngOnInit(): void {
   }
   quote: Quotes[] = [
-    new Quotes('Mark Twain', 'love', "Live in my heart pay no rent", "poems of Hafiz"),
-    new Quotes('Mark Twain', 'love', "Live in my heart pay no rent", "poems of Hafiz"),
-    new Quotes('Mark Twain', 'love', "Live in my heart pay no rent", "poems of Hafiz")
+    new Quotes("Mark Twain", "Kyle","love", "Live in my heart pay no rent", "poems of Hafiz", new Date(2017, 5, 9)),
+    new Quotes("Mark Twain", "Kyle","love", "Live in my heart pay no rent", "poems of Hafiz", new Date(2008, 7, 22)),
+    new Quotes("Mark Twain", "Kyle","love", "Live in my heart pay no rent", "poems of Hafiz", new Date(2015, 11, 18))
   ];
   showAddedQuote(goal){
     goal.completeDate = new Date(goal.completeDate)
