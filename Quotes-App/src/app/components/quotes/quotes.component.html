@@ -1,0 +1,18 @@
+<div class="container">
+    <h1>Quotes App</h1>
+    <hr>
+    <div>
+        <app-add-quotes (displayQuote)="showAddedQuote($event)"></app-add-quotes>
+    </div>
+    <div class="row container bod">
+        <div class="col-sm-4">
+            <div *ngFor = 'let quotes of quote;let i = index'>
+                    <p>{{quotes.genre}}</p>
+                    <p>{{quotes.quote}}</p>
+                    <p><i>-{{quotes.author}}</i></p>
+                    <app-more-info *ngIf='quotes.showInfo' [quote] = 'quotes' (quotesDelete)= "removeQuotes($event, i)"></app-more-info>
+                    <button (click)='toggleInfo(i)'>Click</button>
+            </div>
+        </div>
+    </div>
+</div>
