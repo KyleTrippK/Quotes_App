@@ -35,7 +35,7 @@ cell:  +254705315235
 Mail: kyletrippK@gmail.com
 
 ### License
-[License] (./license)
+[License](./license)
 ### The App screenshots
-![Screenshot one](./assets/quotesApp1.png)
-![Screenshot two](./assets/quotesApp2.png)
+![Screenshot one](./src/assets/quotesApp1.png)
+![Screenshot two](./src/assets/quotesApp2.png)
