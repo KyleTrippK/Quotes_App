@@ -1,0 +1,20 @@
+h1{
+    color: rgb(238, 25, 25);
+    font-size: 400%;
+}
+hr{
+    color: rgb(238, 25, 25);
+}
+.quoteCard{
+    padding: 20px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin: 5px;
+    width: 350px;
+    margin: auto;
+}
+.quoteCard:hover{
+    box-shadow: 4px 5px 9px 3px grey;
+    border: unset;
+
+}
