@@ -7,12 +7,15 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-3 mt-5 quoteCard" *ngFor = 'let quotes of quote;let i = index'>
-                    <p>{{quotes.genre}}</p>
+                    <p class="quoteGenre text-center">Genre: {{quotes.genre}}</p>
+                    <p>Post by: {{quotes.name}}</p>
                     <p>{{quotes.quote}}</p>
-                    <p><i>-{{quotes.author}}</i></p>
+                    <p>Author:<br><i>~{{quotes.author}}</i></p>
                     <p>Posted on {{quotes.datePost|date}}</p>
                     <app-more-info *ngIf='quotes.showInfo' [quote] = 'quotes' (quotesDelete)= "removeQuotes($event, i)"></app-more-info>
-                    <button (click)='toggleInfo(i)' class="btn btn-success button">Click</button>
+                    <div class="text-center">
+                        <button (click)='toggleInfo(i)' class="btn btn-success">Click</button>
+                    </div>
             </div>
         </div>
     </div>
