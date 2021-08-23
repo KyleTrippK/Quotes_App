@@ -3,7 +3,7 @@
 Developed by Kibet Kyle on Aug 23 2021.
 Kibet Kyle is a student at Moringa School who  is aspiring to be a fullstack developer then to fair on and build more other skills in the tech industry. 
 ## Description
-Read some quotes or pos some for other users to view? quotes App is for yoou. This is an app that allows users to view posted quotes, their authors and people who posted them.You can also vote for your favorite quote, or delete those you didn't like.
+You want to read some quotes or post some for other users to view? quotes App is here for you. This is an app that allows users to view posted quotes, their authors and people who posted them.You can also vote for your favorite quote, or delete those you didn't like.
 ## Setup/Installation Requirements
 Requirements:
     <ol>
